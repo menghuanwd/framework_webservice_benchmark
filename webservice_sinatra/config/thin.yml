@@ -1,0 +1,12 @@
+pid: tmp/pids/sinatra_thin.pid
+timeout: 30
+wait: 30
+log: log/thin.log
+max_conns: 1024
+environment: development
+max_persistent_conns: 512
+servers: 2
+threaded: true
+daemonize: false
+port: 8888
+chdir: "/Users/caishuying/guyifeng/ruby_project/framework_webservice_benchmark/sinatra"
